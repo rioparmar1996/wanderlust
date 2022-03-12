@@ -1,15 +1,16 @@
+import './navbar.css'
 function Navbar() {
 	return (
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 			<a class="navbar-brand" href="#">
 				Logo
 			</a>
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto">
+				<ul class="navbar-nav">
 					<li class="nav-item active">
-						//use react-router to create routes
-						//https://v5.reactrouter.com/web/guides/quick-start
+						{/* //use react-router to create routes
+						//https://v5.reactrouter.com/web/guides/quick-start */}
 						<a class="nav-link" href="#">
 							Home <span class="sr-only">(current)</span>
 						</a>
